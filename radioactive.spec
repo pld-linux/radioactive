@@ -1,5 +1,5 @@
-Summary:	A FM-Tuner program for Gnome
-Summary(pl):	Tuner FM dla Gnome
+Summary:	A FM-Tuner program for GNOME
+Summary(pl):	Tuner FM dla GNOME
 Name:		radioactive
 Version:	1.4.0
 Release:	1
