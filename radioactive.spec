@@ -6,6 +6,7 @@ Release:	1
 License:	GPL
 Group:		X11/Applications
 Source0:	http://cactus.rulez.org/projects/radioactive/download/%{name}-%{version}.tar.gz
+# Source0-md5:	5f634b16825c24bd613736c2d5aa3591
 URL:		http://cactus.rulez.org/projects/radioactive/
 BuildRequires:	ORBit-devel
 BuildRequires:	XFree86-devel
