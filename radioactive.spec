@@ -18,7 +18,7 @@ BuildRequires:	gettext-devel
 BuildRequires:	gnome-libs-devel >= 1.2.0
 BuildRequires:	gnomemm-devel
 BuildRequires:	gtkmm-devel
-BuildRequires:	inltool
+BuildRequires:	intltool
 BuildRequires:	libstdc++-devel
 BuildRequires:	panelmm-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
