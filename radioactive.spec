@@ -5,8 +5,6 @@ Version:	1.3.1
 Release:	1
 License:	GPL
 Group:		X11/Applications
-Group(de):	X11/Applikationen
-Group(pl):	X11/Aplikacje
 Source0:	http://cactus.rulez.org/projects/radioactive/download/%{name}-%{version}.tar.gz
 Patch0:		%{name}-am_fixes.patch
 URL:		http://cactus.rulez.org/projects/radioactive/
