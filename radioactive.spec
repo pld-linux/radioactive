@@ -2,7 +2,7 @@ Summary:	A FM-Tuner program for Gnome
 Summary(pl):	Tuner FM dla Gnome
 Name:		radioactive
 Version:	1.3.1
-Release:	1
+Release:	2
 License:	GPL
 Group:		X11/Applications
 Source0:	http://cactus.rulez.org/projects/radioactive/download/%{name}-%{version}.tar.gz
@@ -59,8 +59,6 @@ rm -rf $RPM_BUILD_ROOT
 	DESTDIR=$RPM_BUILD_ROOT \
 	Desktopdir=%{_applnkdir}/Multimedia
 
-gzip -9nf AUTHORS ChangeLog NEWS README
-
 %find_lang %{name}
 
 %clean
@@ -68,7 +66,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files -f %{name}.lang
 %defattr(644,root,root,755)
-%doc *.gz
+%doc AUTHORS ChangeLog NEWS README
 %attr(755,root,root) %{_bindir}/*
 %{_sysconfdir}/CORBA/servers/*
 %{_datadir}/applets/Multimedia/*
