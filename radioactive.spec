@@ -42,7 +42,7 @@ RadioActive ma w³asny, tradycyjny interfejs.
 rm -f missing
 %{__gettextize}
 xml-i18n-toolize --copy --force
-aclocal -I %{_aclocaldir}/gnome
+%{__aclocal} -I %{_aclocaldir}/gnome
 %{__autoconf}
 %{__automake}
 #CXXFLAGS="%{rpmcflags} -fno-exceptions -fno-rtti`"
