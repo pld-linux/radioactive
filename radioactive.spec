@@ -42,7 +42,7 @@ RadioActive ma w³asny, tradycyjny interfejs.
 
 %build
 rm -f missing
-gettextize --copy --force
+%{__gettextize}
 xml-i18n-toolize --copy --force
 aclocal -I %{_aclocaldir}/gnome
 %{__autoconf}
