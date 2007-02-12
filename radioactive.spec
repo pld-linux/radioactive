@@ -1,5 +1,5 @@
 Summary:	A FM-Tuner program for GNOME
-Summary(pl):	Tuner FM dla GNOME
+Summary(pl.UTF-8):   Tuner FM dla GNOME
 Name:		radioactive
 Version:	1.4.0
 Release:	1
@@ -29,10 +29,10 @@ radio tuner cards. The lowlevel functions were initially based on
 GRadio, but RadioActive has a traditional, real-world radio-like
 interface.
 
-%description -l pl
-RadioActive to niewielka aplikacja radiowa dla tunerów kompatybilnych
-z interfejsem Video4Linux. Niskopoziomowe funkcje bazuj± na GRadio ale
-RadioActive ma w³asny, tradycyjny interfejs.
+%description -l pl.UTF-8
+RadioActive to niewielka aplikacja radiowa dla tunerÃ³w kompatybilnych
+z interfejsem Video4Linux. Niskopoziomowe funkcje bazujÄ… na GRadio ale
+RadioActive ma wÅ‚asny, tradycyjny interfejs.
 
 %prep
 %setup -q
