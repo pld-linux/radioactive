@@ -12,7 +12,7 @@ BuildRequires:	ORBit-devel
 BuildRequires:	XFree86-devel
 BuildRequires:	autoconf
 BuildRequires:	automake
-BuildRequires:	gettext-devel
+BuildRequires:	gettext-tools
 BuildRequires:	gnome-libs-devel >= 1.2.0
 BuildRequires:	gnomemm-devel
 BuildRequires:	gtkmm1-devel
